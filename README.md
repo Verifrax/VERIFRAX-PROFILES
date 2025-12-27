@@ -8,3 +8,9 @@ PROFILES DEFINE:
 - DOMAIN CONSTRAINTS
 
 PROFILES DO NOT CHANGE THE SPEC.
+
+---
+AUTHORITATIVE LINKS:
+- SPEC: https://github.com/Verifrax/VERIFRAX-SPEC
+- PROFILES: https://github.com/Verifrax/VERIFRAX-PROFILES
+- VERIFIER: https://github.com/Verifrax/VERIFRAX-verify
