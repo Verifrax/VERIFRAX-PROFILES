@@ -1,0 +1,9 @@
+{
+  "profile": "base.v1",
+  "schema": "verifrax.proof.v1",
+  "required": true,
+  "constraints": {
+    "artifact.sha256": "required",
+    "created_at": "iso8601"
+  }
+}
