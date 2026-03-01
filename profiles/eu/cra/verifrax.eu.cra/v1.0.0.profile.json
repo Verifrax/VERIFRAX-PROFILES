@@ -1,0 +1,22 @@
+{
+  "id": "verifrax.eu.cra",
+  "version": "v1.0.0",
+  "scope": "EU CRA overlay (minimal): requires vulnerability surface presence for compliance posture evaluation.",
+  "required_fields": [
+    "surface.vulnerabilities"
+  ],
+  "rejection_codes": [
+    "E_PROFILE_EU_CRA_VULNS_MISSING"
+  ],
+  "policy": {
+    "rules": [
+      {
+        "id": "EU_CRA_REQUIRE_VULNERABILITIES_FIELD",
+        "level": "fail",
+        "require": [
+          { "path": "surface.vulnerabilities", "op": "exists" }
+        ]
+      }
+    ]
+  }
+}
