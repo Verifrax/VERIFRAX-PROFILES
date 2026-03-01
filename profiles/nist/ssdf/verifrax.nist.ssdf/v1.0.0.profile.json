@@ -1,0 +1,31 @@
+{
+  "id": "verifrax.nist.ssdf",
+  "version": "v1.0.0",
+  "scope": "NIST SSDF overlay (minimal): requires provenance & dependency inventory surfaces for audit-grade decisions.",
+  "required_fields": [
+    "surface.provenance_valid",
+    "surface.dependencies"
+  ],
+  "rejection_codes": [
+    "E_PROFILE_NIST_SSDF_PROVENANCE_MISSING",
+    "E_PROFILE_NIST_SSDF_DEPS_MISSING"
+  ],
+  "policy": {
+    "rules": [
+      {
+        "id": "NIST_SSDF_REQUIRE_PROVENANCE",
+        "level": "fail",
+        "require": [
+          { "path": "surface.provenance_valid", "op": "eq", "value": true }
+        ]
+      },
+      {
+        "id": "NIST_SSDF_REQUIRE_DEPS_ARRAY",
+        "level": "fail",
+        "require": [
+          { "path": "surface.dependencies", "op": "exists" }
+        ]
+      }
+    ]
+  }
+}
