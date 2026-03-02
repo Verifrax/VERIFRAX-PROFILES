@@ -1,0 +1,4 @@
+id: example-minimal
+version: 0.1.0
+target: "example"
+rules: []

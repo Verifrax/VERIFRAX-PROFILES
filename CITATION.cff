@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "VERIFRAX-PROFILES"
+message: "Cite this repository when referencing VERIFRAX regulatory/vertical overlays."
+type: software
+authors:
+  - name: "Verifrax"
+repository-code: "https://github.com/Verifrax/VERIFRAX-PROFILES"
+license: "Proprietary"

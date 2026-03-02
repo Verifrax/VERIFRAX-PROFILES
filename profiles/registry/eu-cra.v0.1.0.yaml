@@ -1,0 +1,6 @@
+id: eu-cra
+version: 0.1.0
+target: "EU Cyber Resilience Act overlay (starter scaffold)"
+meta:
+  status: draft
+rules: []
