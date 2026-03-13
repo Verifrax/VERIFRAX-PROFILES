@@ -1,22 +1,46 @@
-# VERIFRAX PROFILES
+# VERIFRAX-PROFILES
 
-DETERMINISTIC POLICY PROFILES FOR VERIFRAX VERIFICATION.
+## Purpose
 
-PROFILES DEFINE:
-- REQUIRED FIELDS
-- ACCEPTANCE THRESHOLDS
-- DOMAIN CONSTRAINTS
+Versioned regulatory/vertical profiles mapped onto Verifrax evaluation.
 
-PROFILES DO NOT CHANGE THE SPEC.
+## Status
 
----
-AUTHORITATIVE LINKS:
-- SPEC: https://github.com/Verifrax/VERIFRAX-SPEC
-- PROFILES: https://github.com/Verifrax/VERIFRAX-PROFILES
-- VERIFIER: https://github.com/Verifrax/VERIFRAX-verify
+- **Stability**: Experimental
+- **SemVer**: Not guaranteed until v1.0.0
+- **Security**: See **Security** section below
 
-## Directory contract
+## Scope
 
-- `profiles/registry/` : immutable profile definitions (YAML)
-- `profiles/schemas/`  : JSON Schema for profile format
-- `profiles/examples/` : minimal examples
+- What this repo is responsible for
+- What it explicitly does **not** do
+
+## Quickstart
+
+```bash
+# clone
+git clone https://github.com/Verifrax/VERIFRAX-PROFILES.git
+cd VERIFRAX-PROFILES
+
+# install (adjust if needed)
+# (placeholder) npm install / pnpm install / go test ./... / etc.
+```
+
+## Repository layout
+
+- `/` Root sources
+- `/.github/` Issue + PR templates
+- `/docs/` Documentation (if present)
+
+## Security
+
+- Report vulnerabilities privately: **security@verifrax.org**
+- Do **not** open public issues for sensitive findings
+
+## Contributing
+
+See `CONTRIBUTING.md`.
+
+## License
+
+MIT. See `LICENSE`.
