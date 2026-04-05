@@ -1,0 +1,24 @@
+{
+  "name": "@verifrax/verifrax-profiles",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Deterministic profile corpus for the governed Verifrax verification system.",
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "files": [
+    "profiles",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Verifrax/VERIFRAX-PROFILES.git"
+  },
+  "homepage": "https://github.com/Verifrax/VERIFRAX-PROFILES#readme",
+  "bugs": {
+    "url": "https://github.com/Verifrax/VERIFRAX-PROFILES/issues"
+  }
+}
