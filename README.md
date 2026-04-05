@@ -12,7 +12,7 @@ Deterministic profile corpus for the governed Verifrax verification system.
 * Artifact-chain relevance: supports interpretation boundaries needed by `artifact-0005`
 * npm package: `@verifrax/verifrax-profiles`
 * Public host ownership: none claimed as sole host surface in this README
-* Package status: repository profile surface unless metadata proves otherwise
+* Package status: public npm package `@verifrax/verifrax-profiles@0.1.0`
 * License: Apache License Version 2.0
 
 ## One-sentence role
