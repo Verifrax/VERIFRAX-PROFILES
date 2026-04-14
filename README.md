@@ -1,5 +1,8 @@
 # VERIFRAX-PROFILES
 
+Package: @verifrax/verifrax-profiles
+Repository: Verifrax/VERIFRAX-PROFILES
+
 VERIFRAX-PROFILES is the Verifrax profile-constraint boundary: the public surface that constrains interpretation and profile application around VERIFRAX without becoming authored protocol source, derived specification authority, authority issuance, governed execution, public verification, proof publication, archive/reference, or intake.
 
 ## Proof artifacts
