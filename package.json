@@ -1,6 +1,6 @@
 {
   "name": "@verifrax/verifrax-profiles",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "Deterministic profile corpus for the governed Verifrax verification system.",
   "license": "Apache-2.0",
